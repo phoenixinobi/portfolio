@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  portfolio.cleanarchitecture.minimalapi:
+    image: ${DOCKER_REGISTRY-}portfoliocleanarchitectureminimalapi
+    build:
+      context: .
+      dockerfile: Portfolio.CleanArchitecture.MinimalApi/Dockerfile

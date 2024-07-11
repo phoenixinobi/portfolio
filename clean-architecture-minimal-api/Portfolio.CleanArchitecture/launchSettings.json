@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Launch Container": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "portfolio.cleanarchitecture.minimalapi": "StartDebugging"
+      }
+    }
+  }
+}

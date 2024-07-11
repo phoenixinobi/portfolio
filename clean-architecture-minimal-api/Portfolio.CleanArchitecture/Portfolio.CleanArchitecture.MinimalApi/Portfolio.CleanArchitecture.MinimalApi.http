@@ -1,0 +1,6 @@
+@Portfolio.CleanArchitecture.MinimalApi_HostAddress = http://localhost:5275
+
+GET {{Portfolio.CleanArchitecture.MinimalApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
